@@ -5,7 +5,6 @@ import lombok.AllArgsConstructor;
 import lombok.EqualsAndHashCode;
 import lombok.Getter;
 import lombok.NoArgsConstructor;
-
 import java.util.List;
 
 @Getter
@@ -34,10 +33,9 @@ public class Autor {
 
     @Override
     public String toString() {
-        return "Autor" +
-                ", nombre='" + nombre + '\'' +
-                ", fechaDeNacimiento='" + fechaDeNacimiento + '\'' +
-                ", fechaDeFallecimiento='" + fechaDeFallecimiento;
+        return " Autor= " + nombre +
+                ", Fecha de nacimiento= " + fechaDeNacimiento +
+                ", Fecha de fallecimiento= " + fechaDeFallecimiento;
     }
 }
 
